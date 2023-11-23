@@ -1,0 +1,11 @@
+python -m venv venv
+cd venv/scripts
+activate.bat
+pip.exe install django
+pip.exe install djangorestframework
+pip.exe install whitenoise
+pip.exe install qrcode
+pip.exe install pathlib
+cd..
+cd..
+python manage.py runserver
